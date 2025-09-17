@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8"/>
+    <title>Заявка на участие</title>
+    <link rel="stylesheet" href="styles.css"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1">		
+  </head>
+  <body>
+    <div class="wrapper-page">
+        <header class="header">
+            <nav class="nav">
+                <ul>
+                    <li>Посылки</li>
+                    <li>Упаковки</li>
+                    <li>Подписка</li>
+                </ul>
+            </nav>
+            <figure class="logo">
+                <img src="/images/logo.png" alt="logo">
+            </figure>
+        </header>
+        <main class="main">
+            <div class="container-form">
+                <form action="" method="get" class="form">
+                    <div class="wrapper-form">
+                        <div class="form-row">
+                            <label for="name">Имя</label>
+                            <input type="text" name="name" id="name" placeholder="Аня" required>
+                        </div>
+                        <div class="form-row">
+                            <label for="city">Город</label>
+                            <input type="text" name="city" id="city"placeholder="Санкт-Петербург" required>
+                        </div>
+                        <div class="form-row">
+                            <label for="gift">Подарок</label>
+                            <input type="text" name="gift" id="gift" placeholder="Сумка" required>
+                        </div>
+                        <div class="form-row">
+                            <label for="email">Электронная почта</label>
+                            <input type="email" name="email" id="email" placeholder="agility300@yandex.ru" required>
+                        </div>
+                    </div>
+                    <div class="btn-wrapper">
+                        <button class="form-btn">Отправить</button>
+                    </div>   
+                </form>
+            </div>    
+            <aside>
+                <p>ВАША ПОСЫЛКА УЖЕ В ПУТИ!</p>
+            </aside>
+        </main>
+        <footter class="footer">
+            <p>СЕКРЕТНЫЕ ПОСЫЛКИ ДЛЯ ДРУЗЕЙ</p>
+            <p>© 2023</p>
+        </footter>
+    </div>
+  </body>
+</html>

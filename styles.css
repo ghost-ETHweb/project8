@@ -1,0 +1,105 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  --bg-color:#F8BFC7;
+  --bg-color2:#336fd1;
+  --btn-color:#FEB700;
+  font-family: "Helvetica";
+  font-size: 20px;
+  list-style: none;
+}
+.header {
+    background-color: var(--bg-color);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 15px 30px 30px;
+}
+.nav ul {
+    display: flex;
+    font-weight: 700;
+    gap: 30px;
+}
+.container-form {
+    background-image: url("/images/background.png");
+   
+    height: 643px;
+    color: white;
+}
+.wrapper-form{
+    background-color: var(--bg-color);
+    border: 3px solid white;
+    border-radius: 20px;
+    width: 300px;
+    padding: 35px 30px 30px 30px;
+}
+.form {
+    padding-left: 90px;
+    padding-top: 90px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+.form-row label {
+    font-weight: 700;
+}
+.form-row input[type="text"],.form-row input[type="email"] {
+    color: white;
+    width: 240px;
+    outline: none;
+    border: none;
+    background: none;
+    border-bottom: solid white 1px;
+    margin: 16px 0;
+}
+.form-row input[type="text"]::placeholder, .form-row input[type="email"]::placeholder {
+    color: white;
+}
+
+.form-row input[type="email"] {
+    margin-top: 16px ;
+    margin-bottom: 0;
+}
+.form-btn {
+    cursor: pointer;
+    border: solid 3px white;
+    background-color: var(--btn-color);
+    color: white;
+    padding: 20px 40px;
+    border-radius: 30px;
+    font-weight: 700;
+}
+aside {
+    background-color: var(--bg-color2);
+    text-align: center;
+}
+aside p {
+    padding-top: 30px;
+    padding-bottom: 115px;
+    font-size: 50px;
+    color: var(--btn-color);
+    font-weight: 700;
+}
+.footer{
+    display: flex;
+    justify-content: space-between;
+    padding: 35px 30px;
+    color: white;
+    font-weight: 700;
+    background-color: var(--bg-color);
+}
+@media  only screen and (max-width:430px)  {
+    * {
+        font-size: 15px;
+    }
+    .nav ul {
+        gap: 15px;
+    }
+    aside p {
+        font-size: 25px;
+    }
+}
