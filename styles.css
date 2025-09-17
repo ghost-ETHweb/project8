@@ -22,7 +22,7 @@
     gap: 30px;
 }
 .container-form {
-    background-image: url("/images/background.png");
+    background-image: url("./images/background.png");
    
     height: 643px;
     color: white;
@@ -102,4 +102,5 @@ aside p {
     aside p {
         font-size: 25px;
     }
+
 }
